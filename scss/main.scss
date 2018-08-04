@@ -1,5 +1,6 @@
 @import 'config';
 @import 'menu';
+@import 'mobile';
 
 * {
     box-sizing: border-box;
@@ -29,7 +30,7 @@ h3 {
     // 6rem = 6 times html default font-size
     // i.e. 16px
       font-size: 6rem;
-      
+
    }
 
    &.sm-heading {
