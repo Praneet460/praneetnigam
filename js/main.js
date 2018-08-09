@@ -1,3 +1,4 @@
+window.addEventListener('load', init);
 // Select DOM items
 const menuBtn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
@@ -9,8 +10,21 @@ const navItems = document.querySelectorAll('.nav-item');
 // set Initial State of menu
 
 let showMenu = false;
-
+var txt = "Entrepreneur, Android Developer, Web Developer, Machine Learning Programmer, Data Analyst";
+var i = 0;
+var speed = 50; // speed and duration
 menuBtn.addEventListener('click', toggleMenu);
+
+
+// typing effect script
+function init() {
+  if(i < txt.length) {
+      document.getElementById("demo").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(init, speed);
+  }
+}
+
 
 function toggleMenu() {
   if (!showMenu) {
