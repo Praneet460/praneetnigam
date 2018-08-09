@@ -1,2 +1,2 @@
-# praneetnigam
-Responsive portfolio website [Visit](bit.ly/praneetnigam)
+# Praneet Nigam
+Responsive portfolio website [Visit](https://praneet460.github.io/praneetnigam/index.html)
